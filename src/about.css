@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #f2c7ce;
+  --secondary-color: #eb6e81;
+}
+
+body {
+  text-align: center;
+  display: block;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  opacity: 0.7;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+p {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
