@@ -54,5 +54,5 @@ a {
   transition: all ease-in-out 150ms;
 }
 .image-container img:hover {
-  transform: scale(2.5);
+  transform: scale(1.5);
 }
