@@ -50,3 +50,9 @@ a {
   margin-bottom: 20px;
   padding: 12px;
 }
+.image-container img {
+  transition: all ease-in-out 150ms;
+}
+.image-container img:hover {
+  transform: scale(2.5);
+}
