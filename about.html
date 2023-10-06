@@ -3,42 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Me</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/about.css" />
   </head>
+
   <body>
-    <a href="index.html">Back to homepage</a>
-    <h1>About me</h1>
-    <h3>Front-end developer from Northampton, UK</h3>
-    <div class="content">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-        aliquid non molestias odio facere repudiandae veritatis, temporibus
-        ipsa, adipisci in neque consequuntur odit pariatur ullam eaque quas
-        esse? Laborum, corrupti!
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-        aliquid non molestias odio facere repudiandae veritatis, temporibus
-        ipsa, adipisci in neque consequuntur odit pariatur ullam eaque quas
-        esse? Laborum, corrupti!
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi magnam
-        mollitia ducimus odio eos nobis sit consequatur explicabo totam numquam
-        minus, esse obcaecati voluptate id vel veniam repudiandae commodi
-        dolores.
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-        aliquid non molestias odio facere repudiandae veritatis, temporibus
-        ipsa, adipisci in neque consequuntur odit pariatur ullam eaque quas
-        esse? Laborum, corrupti!
-      </p>
+    <div class="container-fluid">
+      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="#" alt="" class="" />Megan Woolhouse
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+      
+      <h1>About me</h1>
+      <h3>Front-end developer from Northampton, UK</h3>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          aliquid non molestias odio facere repudiandae veritatis, temporibus
+          ipsa, adipisci in neque consequuntur odit pariatur ullam eaque quas
+          esse? Laborum, corrupti!
+        </p>
+      </div>
+
+      <div class="row justify-content-around">
+        <div class="col-sm-4 image-container">
+          <img
+            src="images/yoga-project-2.png"
+            alt=""
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-sm-4 image-container">
+          <img
+            src="images/weather-app.png"
+            alt=""
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+
+        <div class="col-sm-4 image-container">
+          <img
+            src="images/world-clock.png"
+            alt=""
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+      </div>
+      <h2 id="contact">Contact Me</h2>
+      <h3>
+        <a href="mailto:megan.woolhouse@gmail.com">
+          megan.woolhouse@gmail.com
+        </a>
+      </h3>
     </div>
-    <h2 id="contact">Contact Me</h2>
-    <h3>
-      <a href="mailto:megan.woolhouse@gmail.com"> megan.woolhouse@gmail.com </a>
-    </h3>
   </body>
 </html>

@@ -51,6 +51,44 @@ h3 {
   box-shadow: var(--box-shadow);
 }
 
+.project-images {
+  max-width: 80%;
+  margin: 70px auto;
+  border-radius: 8px;
+}
+
+.image-container {
+  background-color: var(--primary-color);
+  opacity: 0.7;
+  border-radius: 8px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.project-descriptions {
+  max-width: 100%;
+  padding: auto;
+  margin: 0;
+}
+
+.project-link-button {
+  margin: 40px 0;
+}
+
+.project-links {
+  padding: 15px 10px;
+  border: solid 1px;
+  border-color: var(--primary-color);
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 40px;
+  box-shadow: var(--box-shadow);
+}
+
 footer {
   margin-top: 60px;
 }
